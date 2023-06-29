@@ -36,42 +36,6 @@ public class Tester {
     public static void main(String[] args) throws IOException {
         Tester tester = new Tester();
 
-        /*tester.testEqual("binder", "binding", 4);
-        tester.testEqual("binder", "binding", 5);
-        tester.testEqual("bind", "bind", 5);
-        tester.testEqual("bind", "nigh", 6);*/
-
-        /*tester.testLessThan("binary", "bind", 4);
-        tester.testLessThan("binder", "binding", 4);
-        tester.testLessThan("binding", "binder", 4);
-        tester.testLessThan("bin", "binary", 4);
-        tester.testLessThan("bit", "binary", 4);
-        tester.testLessThan("binary", "bin", 4);
-        tester.testLessThan("binary", "bit", 4);
-        tester.testLessThan("niggle", "niggardly", 6);
-        tester.testLessThan("niggardly", "niggle", 12);
-        tester.testLessThan("bit", "broads", 4);
-        tester.testLessThan("broads", "bit", 8);*/
-
-
-
-
-
-
-        /*tester.testFindPrefix("bi", 2);
-        tester.testFindPrefix("bi..r.", 2);
-        tester.testFindPrefix("ac", 2);
-        tester.testFindPrefix("ab.....s", 2);
-        tester.testFindPrefix("ab.....s", 8);
-        tester.testFindPrefix("abalones", 8);
-        tester.testFindPrefix("abaft", 5);
-        tester.testFindPrefix("a...t", 1);
-        tester.testFindPrefix("zygotes", 7);
-        tester.testFindPrefix("accidentally", 12);*/
-        //tester.testFindPrefix("ac.........y", 12);
-        //tester.testFindPrefix("..na..", 2);
-
-
         tester.testFindMatches("bi..r.");
         tester.testFindMatches("..");
         tester.testFindMatches("..e.");
